@@ -1,6 +1,8 @@
 # gdsc-discord-bot
 
-discord bot boilerplate code for gdsc event
+>discord bot boilerplate code for gdsc event
+
+---
 
 - [downloading python](https://docs.python-guide.org/starting/installation/)
 - [download vscode](https://code.visualstudio.com/download)
