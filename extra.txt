@@ -1,0 +1,27 @@
+# you can paste all of these into the gdsc_stuff class
+
+  # most basic function
+
+  @commands.command(help="repeats what you say to it")
+  async def say(self, ctx, *, msg):
+    await ctx.send(msg)
+
+  # say we want to watch for a particular keyword to appear
+
+  @commands.Cog.listener('on_message')
+  async def hi_detector(self, msg):
+    if msg.author.id == ??? and 'hi' in msg.content:
+      await msg.reply('hi detected')
+
+  # note how the below method can only be done once
+
+  @commands.Cog.listener()
+  async def on_message(self, msg):
+    pass
+
+  # talk about apis a bit, introduce f-strings bc they probably havent seen them before
+
+  @commands.command(help='prints kanye west quote')
+  async def ye(self, ctx):
+    ret = post('https://api.kanye.rest')
+    await ctx.send(f"\"{ret.json()['quote']}\" - Kan(Ye) West")
