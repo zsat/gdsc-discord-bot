@@ -14,7 +14,7 @@ preliminary steps:
     - `pip install discord`
     - `pip install discord.py`
     - (to join voice calls, probably wont get to this for this workshop) `pip install PyNaCl`
-5. [discord bot site](https://discord.com/developers/application) (follow the [tutorial](https://discordpy.readthedocs.io/en/stable/discord.html) if you're not in the workshop)
+5. [discord bot site](https://discord.com/developers/applications) (follow the [tutorial](https://discordpy.readthedocs.io/en/stable/discord.html) if you're not in the workshop)
 
 **more resources**
 
