@@ -13,4 +13,6 @@
   - `pip install discord.py`
   - (to join voice calls, probably wont get to this for this workshop) `pip install PyNaCl`
 
+---
+
 created by zack sating
